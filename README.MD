@@ -1,7 +1,8 @@
-ClubPetro/fullstack-challenge
+<img src="logo-clubpetro.png" alt="Clubpetro" width="300">
 
-Para executar esse projeto faça um clone desse repositorio em uma pasta em seu computador
+# ClubPetro/fullstack-challenge
 
-Abra um terminal e navegue ate a pasta backend, dentro do projeto, e execute yarn start
 
-Abra outro terminal navegue ate a pasta frontend e execute yarn start
+Para executar esse projeto faça um clone desse repositorio em seu computador
+
+Abra dois terminais navegue ate a pasta do projeto 
