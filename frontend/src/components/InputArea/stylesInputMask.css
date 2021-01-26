@@ -1,0 +1,22 @@
+.GoalInputMask {
+  position: relative;
+  width: 16.5vw;
+  height: 4.6875vh;
+  border: 0;
+  background: #ffffff;
+  border-radius: 7px;
+  font-size: max(1rem, 0.8vw);
+  padding-left: 11.78px;
+}
+
+.GoalInputMask label {
+  margin-left: 28px;
+  font-size: clamp(1em, 1em + 1vw, 1.5em);
+}
+
+@media only screen and (max-width: 710px) {
+  .GoalInputMask {
+    width: 70vw;
+    height: max(4.68vh, 45.34px);
+  }
+}
