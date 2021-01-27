@@ -9,26 +9,26 @@ export class PlaceController {
 
   @Post()
   create(@Body() place: Place) {
-    return this.PlaceService.create(place);
+    return this.PlaceService.createPlace(place);
   }
 
   @Get(':id')
   findOne(@Param('id') id: string) {
-    return this.PlaceService.findOne(id);
+    return this.PlaceService.findOnePlace(id);
   }
 
   @Get()
   findAll() {
-    return this.PlaceService.findAll();
+    return this.PlaceService.findAllPlaces();
   }
 
   @Delete(':id')
   deleteOne(@Param('id') id: string) {
-    return this.PlaceService.deleteOne(id);
+    return this.PlaceService.deletePlace(id);
   }
 
   @Put(':id')
   updateOne(@Param('id') id: string, @Body() place: Place) {
-    return this.PlaceService.updateOne(id, place);
+    return this.PlaceService.updatePlace(id, place);
   }
 }

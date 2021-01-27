@@ -12,12 +12,12 @@ export class PlaceService {
     private readonly PlaceRepository: Repository<PlaceEntity>,
   ) {}
 
-  async create(place: Place) {
-    const placeVerify = await this.PlaceRepository.findOne({
+  async createPlace(place: Place) {
+    const placeVerify = await this.PlaceRepository.find({
       where: { pais: place.pais, local: place.local },
     });
     if (placeVerify) {
-      throw new Error("country and place can't be duplicated");
+      throw new Error('country and place cant be duplicated');
     }
     try {
       const newPlace = this.PlaceRepository.create(place);
@@ -27,7 +27,7 @@ export class PlaceService {
     }
   }
 
-  async findAll() {
+  async findAllPlaces() {
     const allPlaces = await this.PlaceRepository.find();
 
     allPlaces.sort((obj1, obj2) => {
@@ -46,26 +46,27 @@ export class PlaceService {
     return allPlaces;
   }
 
-  async findOne(id: string) {
+  async findOnePlace(id: string) {
     const place = this.PlaceRepository.findOne(id);
     return place;
   }
 
-  async deleteOne(id: string) {
-    return await this.PlaceRepository.delete({ id: id });
-  }
-
-  async updateOne(id: string, place: Place) {
-    const placeUpdate = await this.PlaceRepository.findOne({
-      where: { id: id },
-    });
-    if (!placeUpdate) {
+  async updatePlace(id: string, data: Place) {
+    const placeExist = await this.PlaceRepository.findOne({ id: id });
+    if (!placeExist) {
       throw new Error('Place not exist');
     }
     try {
-      placeUpdate.meta = place.meta;
-      placeUpdate.local = place.local;
-      return await this.PlaceRepository.save(placeUpdate);
+      return await this.PlaceRepository.update(placeExist, data);
+    } catch (error) {
+      throw new Error(error);
+    }
+  }
+
+  async deletePlace(id: string) {
+    try {
+      await this.PlaceRepository.delete({ id: id });
+      return true;
     } catch (error) {
       throw new Error(error);
     }
