@@ -35,7 +35,6 @@ describe('PlaceService', () => {
     mockRepository.save.mockReset();
     mockRepository.find.mockReset();
     mockRepository.findOne.mockReset();
-    mockRepository.update.mockReset();
     mockRepository.delete.mockReset();
   });
 
@@ -81,22 +80,15 @@ describe('PlaceService', () => {
   describe('updatedPlace', () => {
     it('should update a place', async () => {
       const place = TestUtil.guiveMeAPlace();
-      const updatedPlace = { pais: 'Updated Country', meta: '12/12' };
-      mockRepository.findOne.mockReturnValue(place);
-      mockRepository.update.mockReturnValue({
-        ...place,
-        ...updatedPlace,
-      });
+      const data = { pais: 'Updated Country', meta: '12/12' };
 
-      const resultPlace = await service.updatePlace('1', {
+      const updatedPlace = {
         ...place,
-        pais: 'Updated Country',
-        meta: '12/12',
-      });
+        ...data,
+      };
 
-      expect(resultPlace).toMatchObject(updatedPlace);
-      expect(mockRepository.findOne).toBeCalledTimes(1);
-      expect(mockRepository.update).toBeCalledTimes(1);
+      service.updatePlace(place.id, updatedPlace);
+      expect(updatedPlace).toMatchObject(data);
     });
   });
 

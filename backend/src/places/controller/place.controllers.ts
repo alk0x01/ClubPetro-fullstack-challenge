@@ -12,11 +12,6 @@ export class PlaceController {
     return this.PlaceService.createPlace(place);
   }
 
-  @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.PlaceService.findOnePlace(id);
-  }
-
   @Get()
   findAll() {
     return this.PlaceService.findAllPlaces();

@@ -13,7 +13,7 @@ export class PlaceService {
   ) {}
 
   async createPlace(place: Place) {
-    const placeVerify = await this.PlaceRepository.find({
+    const placeVerify = await this.PlaceRepository.findOne({
       where: { pais: place.pais, local: place.local },
     });
     if (placeVerify) {
@@ -46,18 +46,15 @@ export class PlaceService {
     return allPlaces;
   }
 
-  async findOnePlace(id: string) {
-    const place = this.PlaceRepository.findOne(id);
-    return place;
-  }
-
   async updatePlace(id: string, data: Place) {
-    const placeExist = await this.PlaceRepository.findOne({ id: id });
+    const placeExist = await this.PlaceRepository.findOne({ where: { id } });
     if (!placeExist) {
       throw new Error('Place not exist');
     }
     try {
-      return await this.PlaceRepository.update(placeExist, data);
+      placeExist.local = data.local;
+      placeExist.meta = data.meta;
+      await this.PlaceRepository.save(placeExist);
     } catch (error) {
       throw new Error(error);
     }
