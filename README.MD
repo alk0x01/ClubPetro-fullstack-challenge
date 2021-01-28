@@ -16,13 +16,13 @@
 
 ### Back-end
 
-####<li>####NodeJS</li>
-####<li>NestJS</li>
+#### <li>NodeJS</li>
+#### <li>NestJS</li>
 #### <li>Typescript</li>
-#### - [x] TypeORM</li>
-#### - [x] Postgres</li>
-#### - [x] Docker</li>
-#### - [x] Jest</li>
+#### <li>TypeORM</li>
+#### <li>Postgres</li>
+#### <li>Docker</li>
+#### <li>Jest</li>
 
 ### Front-end
 
