@@ -3,6 +3,35 @@
 # ClubPetro/fullstack-challenge
 
 
-Para executar esse projeto faça um clone desse repositorio em seu computador
+#### Faça um clone desse repositorio em seu computador
+#### Navegue usando seu terminal ate a pasta do projeto 
+#### Execute o comando `yarn` na pasta backend e com outro terminal execute o mesmo comando na pasta frontend
+#### A aplicação vai abrir no endereço ```localhost:3000``` do seu navegador.
 
-Abra dois terminais navegue ate a pasta do projeto 
+&nbsp;
+
+Você precisara ter o banco de dados Postgres em seu computador, ouvindo a porta 5432
+
+&nbsp;
+
+
+## Tecnologias usadas 💻
+
+### Back-end 
+
+#### - ✅ NodeJS
+#### - ✅ NestJS
+#### - ✅ Typescript
+#### - ✅ TypeORM
+#### - ✅ Postgres
+#### - ✅ Docker
+#### - ✅ Jest
+
+
+### Front-end 
+
+#### - ✅ React
+#### - ✅ Typescript
+#### - ✅ styled-components
+#### - ✅ react-input-mask
+#### - ✅ Material-UI
