@@ -12,9 +12,9 @@
 
 
 
-## Tecnologias usadas
+## Tecnologias usadas 👨‍💻
 
-### Back-end
+### Back-end 
 
 #### ✅ NodeJS<
 #### ✅ NestJS
@@ -25,7 +25,7 @@
 #### ✅ Jest
 
 
-### Front-end
+### Front-end 
 
 #### ✅ React
 #### ✅ Typescript
