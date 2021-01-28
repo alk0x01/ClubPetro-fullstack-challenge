@@ -32,5 +32,6 @@ Você precisara ter o banco de dados Postgres em seu computador, ouvindo a porta
 
 #### - ✅ React
 #### - ✅ Typescript
+#### - ✅ styled-components
 #### - ✅ react-input-mask
 #### - ✅ Material-UI
