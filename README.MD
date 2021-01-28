@@ -11,23 +11,29 @@
 
 #### A aplicação vai abrir no edndereço ```localhost:3000``` do seu navegador.
 
+-----------------------------------------------------------------------------------
 
-### Tecnologias usadas
+
+
+
+## Tecnologias usadas
 
 ### Back-end
 
-#### <li>NodeJS</li>
-#### <li>NestJS</li>
-#### <li>Typescript</li>
-#### <li>TypeORM</li>
-#### <li>Postgres</li>
-#### <li>Docker</li>
-#### <li>Jest</li>
+#### ✅ NodeJS<
+#### ✅ NestJS
+#### ✅ Typescript
+#### ✅ TypeORM
+#### ✅ Postgres
+#### ✅ Docker
+#### ✅ Jest
+
+&nbsp;
 
 ### Front-end
 
-#### <li>React</li>
-#### <li>Typescript</li>
-#### <li>Typescript</li>
-#### <li>react-input-mask</li>
-#### <li>Material-UI</li>
+#### ✅ React
+#### ✅ Typescript
+#### ✅ Typescript
+#### ✅ react-input-mask
+#### ✅ Material-UI
