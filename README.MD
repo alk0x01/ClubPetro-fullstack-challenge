@@ -13,7 +13,6 @@ yarn
 ```
 no pasta frontend e na pasta backend
 
-A aplicação vai abrir no edndereço ```bash 
-localhost:3000``` do seu navegador
+A aplicação vai abrir no edndereço ```localhost:3000``` do seu navegador
 
 Eu tenho que upar o container docker e dar instrucoes de como executar ele
