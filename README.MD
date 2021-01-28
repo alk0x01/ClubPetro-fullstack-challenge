@@ -16,7 +16,7 @@
 
 ### Back-end 
 
-#### ✅ NodeJS<
+#### ✅ NodeJS
 #### ✅ NestJS
 #### ✅ Typescript
 #### ✅ TypeORM
@@ -28,7 +28,6 @@
 ### Front-end 
 
 #### ✅ React
-#### ✅ Typescript
 #### ✅ Typescript
 #### ✅ react-input-mask
 #### ✅ Material-UI
