@@ -15,8 +15,8 @@
 ### Tecnologias usadas
 
 ### Back-end
-#### - [x] NodeJS</li>
-#### - [x] NestJS</li>
+ - [x] NodeJS</li>
+ - [x] NestJS</li>
 #### - [x] Typescript</li>
 #### - [x] TypeORM</li>
 #### - [x] Postgres</li>
