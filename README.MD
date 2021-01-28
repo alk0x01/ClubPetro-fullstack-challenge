@@ -19,18 +19,18 @@ Você precisara ter o banco de dados Postgres em seu computador, ouvindo a porta
 
 ### Back-end 
 
-#### ✅ NodeJS
-#### ✅ NestJS
-#### ✅ Typescript
-#### ✅ TypeORM
-#### ✅ Postgres
-#### ✅ Docker
-#### ✅ Jest
+#### - ✅ NodeJS
+#### - ✅ NestJS
+#### - ✅ Typescript
+#### - ✅ TypeORM
+#### - ✅ Postgres
+#### - ✅ Docker
+#### - ✅ Jest
 
 
 ### Front-end 
 
-#### ✅ React
-#### ✅ Typescript
-#### ✅ react-input-mask
-#### ✅ Material-UI
+#### - ✅ React
+#### - ✅ Typescript
+#### - ✅ react-input-mask
+#### - ✅ Material-UI
