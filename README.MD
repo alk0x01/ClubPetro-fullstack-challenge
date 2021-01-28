@@ -28,7 +28,6 @@
 #### ✅ Docker
 #### ✅ Jest
 
-&nbsp;
 
 ### Front-end
 
