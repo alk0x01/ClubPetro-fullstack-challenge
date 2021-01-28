@@ -15,16 +15,16 @@
 ### Tecnologias usadas
 
 ### Back-end
- - [x] NodeJS</li>
- - [x] NestJS</li>
-#### - [x] Typescript</li>
-#### - [x] TypeORM</li>
-#### - [x] Postgres</li>
-#### - [x] Docker</li>
-#### - [x] Jest</li>
+ - [x] NodeJS
+ - [x] NestJS
+#### - [x] Typescript
+#### - [x] TypeORM
+#### - [x] Postgres
+#### - [x] Docker
+#### - [x] Jest
 
 ### Front-end
-#### - [x] React</li>
+#### - [x] React
 #### - [x] Typescript
 #### - [x] Typescript
 #### - [x] react-input-mask
