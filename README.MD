@@ -12,7 +12,7 @@
 
 
 
-## Tecnologias usadas 👨‍💻
+## Tecnologias usadas 💻
 
 ### Back-end 
 
