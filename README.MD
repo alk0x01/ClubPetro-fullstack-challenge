@@ -10,6 +10,9 @@
 
 &nbsp;
 
+Você precisara ter o banco de dados Postgres em seu computador, ouvindo a porta 5432
+
+&nbsp;
 
 
 ## Tecnologias usadas 💻
